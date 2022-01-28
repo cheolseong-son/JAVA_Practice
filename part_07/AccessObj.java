@@ -1,0 +1,13 @@
+package part_07;
+
+public class AccessObj {
+	//접근 제한자, 메서드와 클래스에 사용 가능
+	
+	public int p = 3; // 모든 접근을 허용, 가장 넓은 의미
+	protected int p2 = 4; // 같은 패키지인 경우 접근허용, 다른 패키지라도 상속을 받은 경우 접근을 허용
+	private int i = 1; // 자기 자신만 접근 허용
+	int k = 2; // default 접근 지정자 : 아무것도 쓰지 않은 경우, 자기 자신과 같은 패키지 내에서 접근을 허용
+	// public > protected > default > private  순
+	
+	
+}
